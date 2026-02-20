@@ -44,8 +44,8 @@ Open [http://localhost:3000](http://localhost:3000).
 ### Environment Variables
 
 ```env
-GITHUB_TOKEN=github_pat_...      # read:user, public_repo, read:org scopes
-VERCEL_TOKEN=...                  # Vercel API token
+NUXT_GITHUB_TOKEN=github_pat_...      # read:user, public_repo, read:org scopes
+NUXT_VERCEL_TOKEN=...                  # Vercel API token
 NUXT_PUBLIC_GITHUB_USERNAME=faizkhairi
 ```
 
@@ -98,7 +98,7 @@ npm run build         # Vercel preset build
 vercel --prod
 ```
 
-Set `GITHUB_TOKEN` and `VERCEL_TOKEN` in your Vercel project settings.
+Set `NUXT_GITHUB_TOKEN` and `NUXT_VERCEL_TOKEN` in your Vercel project settings.
 
 ---
 

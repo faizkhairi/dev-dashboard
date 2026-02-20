@@ -20,6 +20,6 @@ jobs:
       - run: npm test
       - run: npm run build
         env:
-          GITHUB_TOKEN: ''
-          VERCEL_TOKEN: ''
+          NUXT_GITHUB_TOKEN: ''
+          NUXT_VERCEL_TOKEN: ''
           NUXT_PUBLIC_GITHUB_USERNAME: faizkhairi
