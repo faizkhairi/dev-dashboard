@@ -4,6 +4,8 @@ Personal developer command center — GitHub activity, npm package analytics, an
 
 [![CI](https://github.com/faizkhairi/dev-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/faizkhairi/dev-dashboard/actions/workflows/ci.yml)
 
+**[Live demo](https://dev-dashboard-weld.vercel.app)**
+
 ---
 
 ## Features
